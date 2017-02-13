@@ -12,10 +12,13 @@ public:
 	~Game();
 	void init();
 	void run();
+	
+private:
 	void update();
 	void render();
 	void end();
-private:
+	void readScores();
+
 	bool turn;
 	sf::RenderWindow window;
 	Player player;

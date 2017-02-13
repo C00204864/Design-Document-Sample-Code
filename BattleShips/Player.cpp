@@ -97,3 +97,18 @@ int Player::getYPos()
 {
 	return yPos;
 }
+
+// Function allows the player to set their ships
+void Player::setShips()
+{
+	for (int i = 0; i < 2; i++)
+	{
+		//...
+	}
+}
+
+// Function allows the Player to check whether they have won or lost the game
+void Player::checkGameOver()
+{
+	//...
+}

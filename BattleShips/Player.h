@@ -12,6 +12,8 @@ public:
 	void render(sf::RenderWindow & window);
 	int getXPos();
 	int getYPos();
+	void setShips();
+	void checkGameOver();
 private:
 	void moveLeft();
 	void moveRight();

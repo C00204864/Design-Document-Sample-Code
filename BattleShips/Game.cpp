@@ -52,7 +52,14 @@ void Game::render()
 	window.display();
 }
 
+// Function ends the game
 void Game::end()
 {
 	window.close(); // Close the render window
+}
+
+// Function used to read the scores from an online server
+void Game::readScores()
+{
+
 }
